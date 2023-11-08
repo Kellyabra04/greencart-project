@@ -1,0 +1,523 @@
+/* Global styles */
+
+@font-face {
+  font-family: "customfont";
+  src: url(Hind/Hind-Medium.ttf) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "customfont-two";
+  src: url(Rowdies/Rowdies-Light.ttf) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "customfont", sans-serif;
+}
+
+header nav ul {
+  background-color: rgba(220, 221, 219, 0);
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  z-index: 3;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "customfont-two";
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+footer li {
+  margin-left: 25px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.body-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.body-background-home {
+  background-image: url("images/backgrounduno.jpg");
+}
+
+.body-background-freitag {
+  background-image: url("images/backgrounddos.jpg");
+}
+
+.body-background-practices {
+  background-image: url("images/backingthree.png");
+}
+
+.body-background-producten {
+  background-image: url("images/backgroundfour.png");
+}
+
+.logo-image-index {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.text-block-index-left {
+  background: #eceeec00; /* Background color using the hexadecimal color code */
+  padding: 20px; /* Adjust padding as needed */
+  position: relative; /* Change the position to relative */
+  top: 110px; /* Move the block 20 pixels up (adjust as needed) */
+  left: 10px; /* Move the block 20 pixels to the left (adjust as needed) */
+  text-align: center; /* Center align the content within the text block */
+  width: 70%;
+  font-size: 75%;
+}
+
+.text-block-index-left h2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 333px;
+  left: 97px;
+  font-size: 30px;
+}
+
+.overons-banner-image {
+  width: 160px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 25px; /* Adjust the top value to lower the image */
+  left: 8px;
+}
+
+.text-block-index-right {
+  background: #eceeec00; /* Background color using the hexadecimal color code */
+  position: relative; /* Change the position to relative */
+  top: 110px; /* Move the block 20 pixels up (adjust as needed) */
+  left: 80px; /* Move the block 20 pixels to the left (adjust as needed) */
+  text-align: center; /* Center align the content within the text block */
+  width: 70%;
+  font-size: 75%;
+  z-index: 3;
+}
+
+.text-block-index-right h2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 190px;
+  left: 70px;
+  font-size: 30px;
+}
+
+.text-block-index-right ul {
+  top: 270px;
+  text-align: left;
+  position: absolute;
+}
+
+.text-block-index-right ul li {
+  margin-bottom: 6px;
+}
+
+.voordelen-banner-image {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 5px; /* Adjust the top value to lower the image */
+  left: 10px;
+}
+.wistje-banner-image {
+  width: 238px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 1076px; /* Adjust the top value to lower the image */
+  left: 50px;
+}
+
+.text-block-index-middel {
+  background: #eceeec00; /* Background color using the hexadecimal color code */
+  position: relative; /* Change the position to relative */
+  top: 1050px; /* Move the block 20 pixels up (adjust as needed) */
+  left: 95px; /* Move the block 20 pixels to the left (adjust as needed) */
+  text-align: center; /* Center align the content within the text block */
+  width: 45%;
+  font-size: 75%;
+}
+
+.text-block-index-middel ul {
+  list-style: none; /* Remove the default list-style (bullet points) */
+  padding: 0; /* Remove any padding */
+  margin: 0; /* Remove any margin */
+}
+
+.text-block-index-middel ul li {
+  margin-bottom: 7px;
+}
+
+.text-block-freitag-left {
+  background: #eceeec00; /* Background color using the hexadecimal color code */
+  position: absolute; /* Change the position to relative */
+  top: 180px; /* Move the block 20 pixels up (adjust as needed) */
+  left: 30px; /* Move the block 20 pixels to the left (adjust as needed) */
+  text-align: center; /* Center align the content within the text block */
+  width: 70%;
+  font-size: 75%;
+}
+
+.freitag-logo-image {
+  width: 270px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 320px; /* Adjust the top value to lower the image */
+  left: 10px;
+}
+
+.map-image {
+  width: 300px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 280px; /* Adjust the top value to lower the image */
+  left: -5px;
+}
+
+.text-block-freitag-adress {
+  background: #eceeec00; /* Background color using the hexadecimal color code */
+  position: relative; /* Change the position to relative */
+  top: 270px; /* Move the block 20 pixels up (adjust as needed) */
+  left: -20px; /* Move the block 20 pixels to the left (adjust as needed) */
+  text-align: center; /* Center align the content within the text block */
+  width: 70%;
+  font-size: 85%;
+  z-index: 3;
+}
+
+.text-block-freitag-right {
+  background: #eceeec00; /* Background color using the hexadecimal color code */
+  position: relative; /* Change the position to relative */
+  top: 350px; /* Move the block 20 pixels up (adjust as needed) */
+  left: 90px; /* Move the block 20 pixels to the left (adjust as needed) */
+  text-align: center; /* Center align the content within the text block */
+  width: 70%;
+  font-size: 75%;
+}
+
+.text-block-freitag-right p:first-child {
+  margin-bottom: 260px; /* Add margin to the bottom of the first <p> element */
+}
+
+.flag-image {
+  width: 250px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: absolute; /* Set the position property to relative */
+  top: 208px; /* Adjust the top value to lower the image */
+  left: -5px;
+}
+
+.missie-visie-banner-image {
+  width: 370px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 355px; /* Adjust the top value to lower the image */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.text-block-freitag-middel {
+  background: #eceeec00; /* Background color using the hexadecimal color code */
+  position: relative; /* Change the position to relative */
+  top: -40px; /* Move the block 20 pixels up (adjust as needed) */
+  left: 10px; /* Move the block 20 pixels to the left (adjust as needed) */
+  text-align: center; /* Center align the content within the text block */
+  width: 88%;
+  font-size: 75%;
+  color: rgb(255, 255, 255);
+}
+
+.text-block-freitag-middel p:first-child {
+  margin-bottom: 90px; /* Add margin to the bottom of the first <p> element */
+}
+
+.producten-banner-image {
+  width: 210px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: -42px; /* Adjust the top value to lower the image */
+  left: 41px;
+}
+
+.saddlebag-image {
+  width: 119px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 157px; /* Adjust the top value to lower the image */
+  left: -216px;
+}
+
+.red-bag-image {
+  width: 105px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  margin: 400px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: absolute; /* Set the position property to relative */
+  top: -122px; /* Adjust the top value to lower the image */
+  left: -215px;
+}
+
+.toilet-bag-image {
+  width: 170px; /* Set the desired width */
+  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: absolute; /* Set the position property to relative */
+  top: 435px; /* Adjust the top value to lower the image */
+  left: 25px;
+}
+
+.grey-bag-image {
+  width: 70px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 20px; /* Adjust the top value to lower the image */
+  left: 10px;
+}
+
+.bag-display-image {
+  width: 270px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 300px; /* Adjust the top value to lower the image */
+  left: 14px;
+}
+
+.yellow-bag-image {
+  width: 180px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 310px; /* Adjust the top value to lower the image */
+  left: 30px;
+}
+
+.red-wallet-image {
+  width: 105px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 160px; /* Adjust the top value to lower the image */
+  left: 240px;
+}
+
+.mijn-recensie-banner-image {
+  width: 200px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 255px; /* Adjust the top value to lower the image */
+  left: -50px;
+}
+
+.text-block-producten-one {
+  background: #eceeec00; /* Background color using the hexadecimal color code */
+  position: relative; /* Change the position to relative */
+  top: 250px; /* Move the block 20 pixels up (adjust as needed) */
+  left: 60px; /* Move the block 20 pixels to the left (adjust as needed) */
+  text-align: center; /* Center align the content within the text block */
+  width: 70%;
+  font-size: 75%;
+  color: rgb(0, 0, 0);
+}
+
+.duurzaamheidspraktijken-banner-praktijken-image {
+  width: 300px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 38px; /* Adjust the top value to lower the image */
+  left: 40px;
+}
+
+.text-block-praktijken-right {
+  background: #eceeec00; /* Background color using the hexadecimal color code */
+  position: relative; /* Change the position to relative */
+  top: 0px; /* Move the block 20 pixels up (adjust as needed) */
+  left: 40px; /* Move the block 20 pixels to the left (adjust as needed) */
+  text-align: center; /* Center align the content within the text block */
+  width: 80%;
+  font-size: 70%;
+  color: rgb(0, 0, 0);
+}
+
+.vrachtwagen-image {
+  width: 110px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: absolute; /* Set the position property to relative */
+  top: 617px; /* Adjust the top value to lower the image */
+  left: 40px;
+}
+
+.gordel-image {
+  width: 124px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: absolute; /* Set the position property to relative */
+  top: 615px; /* Adjust the top value to lower the image */
+  left: 200px;
+}
+
+.fiets-image {
+  width: 130px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: absolute; /* Set the position property to relative */
+  top: 827px; /* Adjust the top value to lower the image */
+  left: 35px;
+}
+
+.duurzaamheidinbeeld-banner-praktijken-image {
+  width: 260px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 395px; /* Adjust the top value to lower the image */
+  left: 20px;
+}
+
+.afval-image {
+  width: 260px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: absolute; /* Set the position property to relative */
+  top: 1110px; /* Adjust the top value to lower the image */
+  left: 20px;
+}
+
+.text-block-praktijken-links {
+  background: #eceeec00; /* Background color using the hexadecimal color code */
+  position: relative; /* Change the position to relative */
+  top: 578px; /* Move the block 20 pixels up (adjust as needed) */
+  left: 15px; /* Move the block 20 pixels to the left (adjust as needed) */
+  text-align: center; /* Center align the content within the text block */
+  width: 69%;
+  font-size: 70%;
+  color: rgb(0, 0, 0);
+}
+
+.tabel-image {
+  width: 378px; /* Set the desired width */
+  height: auto;
+  margin: 10px; /* Add some margin around the image */
+  border-radius: 10px; /* Add rounded corners to the image */
+  position: relative; /* Set the position property to relative */
+  top: 475px; /* Adjust the top value to lower the image */
+  left: -20px;
+}
+
+.text-block-footer-index,
+.text-block-footer-freitag,
+.text-block-footer-praktijken,
+.text-block-footer-procensies {
+  background: #05bb0500;
+  position: relative;
+  left: 20px;
+  text-align: center;
+  width: 75%;
+  font-size: 90%;
+  color: rgb(0, 0, 0);
+  z-index: 2;
+}
+
+.text-block-footer-index {
+  top: 1210px;
+}
+
+.text-block-footer-freitag {
+  top: 425px;
+}
+
+.text-block-footer-praktijken {
+  top: 620px;
+}
+
+.text-block-footer-procensies {
+  top: 760px;
+}
+
+.green-image-one,
+.green-image-two,
+.green-image-three,
+.green-image-four {
+  width: 375px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  position: absolute;
+  left: -10px;
+  z-index: 1;
+}
+
+.green-image-one {
+  top: -10px;
+}
+
+.green-image-two {
+  top: -10px;
+}
+
+.green-image-three {
+  top: -10px;
+}
+
+.green-image-four {
+  top: 75px;
+}
